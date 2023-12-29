@@ -70,7 +70,7 @@ body {
 	font-family: 'M PLUS Rounded 1c', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	/*フォント種類*/
 	-webkit-text-size-adjust: none;
 	 background: var(--secondary-color);	/* 背景色。css冒頭で指定しているテーマカラーを読み込みます */
-	color: #696969;		/*文字色*/
+	color: #2b2b2b;		/*文字色*/
 	line-height: 2;		/*行間*/
 }
 
@@ -286,12 +286,12 @@ main {
 
 /*ブロック内のh2*/
 main h2 {
-	color: var(--primary-color);		/*css冒頭で指定しているテーマカラーを読み込みます*/
+	color: #2b2b2b;		/*css冒頭で指定しているテーマカラーを読み込みます*/
 	font-family: 'Comfortaa', 'M PLUS Rounded 1c', cursive;	/*冒頭で読み込んでいるGoogleFontsを使う指定*/
 	font-weight: normal;				/*hタグのデフォルトの太字を標準に*/
 	font-size: 4rem;					/*文字サイズ。4倍に。*/
 	letter-spacing: 0.1em;				/*文字間隔を少し広くとる指定*/
-	border-bottom: 1px solid rgba(255,255,255,0.2);	/*下線の幅、線種、色。255,255,255は白のことで0.2は色が20%出た状態*/
+	border-bottom: 2px solid rgba(255,255,255,0.2);	/*下線の幅、線種、色。255,255,255は白のことで0.2は色が20%出た状態*/
 	padding: 0 0 1rem;				/*h2内の余白。上、左右、下への順番。*/
 }
 
