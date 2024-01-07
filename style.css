@@ -291,7 +291,7 @@ main h2 {
 	font-weight: normal;				/*hタグのデフォルトの太字を標準に*/
 	font-size: 4rem;					/*文字サイズ。4倍に。*/
 	letter-spacing: 0.1em;				/*文字間隔を少し広くとる指定*/
-	border-bottom: 2px solid rgba(255,255,255,0.2);	/*下線の幅、線種、色。255,255,255は白のことで0.2は色が20%出た状態*/
+	/* border-bottom: 2px solid rgba(255,255,255,0.7);	下線の幅、線種、色。255,255,255は白アルファで透明度変更できる*/
 	padding: 0 0 1rem;				/*h2内の余白。上、左右、下への順番。*/
 }
 
@@ -306,7 +306,7 @@ main h2 span {
 main h3 {
 	color: var(--primary-color);	/*css冒頭で指定しているテーマカラーを読み込みます*/
 	font-size: 1.3rem;				/*文字サイズ。1.3倍。*/
-	border-bottom: 1px solid rgba(255,255,255,0.2);	/*下線の幅、線種、色。255,255,255は白のことで0.2は色が20%出た状態*/
+	border-bottom: 4px solid rgba(255,255,255,0.6);	/*下線の幅、線種、色。255,255,255は白のことで0.2は色が20%出た状態*/
 }
 
 	/*画面幅500px以上の追加指定*/
