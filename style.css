@@ -489,6 +489,63 @@ footer .pr {display: block;}
 }
 
 
+/*フローチャート図用
+---------------------------------------------------------------------------*/
+.flow_design00{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flow00 {
+  padding-left: 0;
+}
+
+.flow00 > li {
+  list-style-type: none;
+  border: 2px solid #4D9BC1;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.flow00 > li:not(:last-child) {
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.flow00 > li:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  border: 20px solid transparent;
+  width: 0;
+  height: 0;
+  bottom: -53px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  border-top-color: #4D9BC1;
+}
+
+.flow00 > li dl dt {
+  font-size: 1.3em;
+  font-weight: bold;
+  border-bottom: 2pt dashed #ccc;
+  padding-bottom: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.flow00 > li .icon10 {
+  color: #4D9BC1;
+  margin-right: 0.5em;
+}
+
+.flow00 > li dl dd {
+  margin: 0;
+}
+
+
+
 /*その他
 ---------------------------------------------------------------------------*/
 .clearfix::after {content: "";display: block;clear: both;}
