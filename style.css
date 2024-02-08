@@ -546,10 +546,10 @@ footer .pr {display: block;}
 
 /*料金表テーブル
 ---------------------------------------------------------------------------*/
-body {
-  /* font-family: "Open Sans", sans-serif; */
+/* body {
+  font-family: "Open Sans", sans-serif; 
   line-height: 1.25;
-}
+}*/
 
 table {
   border-collapse: collapse;
