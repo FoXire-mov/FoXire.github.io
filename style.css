@@ -288,7 +288,7 @@ main h2 {
 	color: #2b2b2b;		/*css冒頭で指定しているテーマカラーを読み込みます*/
 	font-family: 'Comfortaa', 'M PLUS Rounded 1c', cursive;	/*冒頭で読み込んでいるGoogleFontsを使う指定*/
 	font-weight: normal;				/*hタグのデフォルトの太字を標準に*/
-	font-size: 4rem;					/*文字サイズ。4倍に。*/
+	font-size: 3rem;					/*文字サイズ。4倍に。*/
 	letter-spacing: 0.1em;				/*文字間隔を少し広くとる指定*/
 	/* border-bottom: 2px solid rgba(255,255,255,0.7);	下線の幅、線種、色。255,255,255は白アルファで透明度変更できる*/
 	padding: 0 0 1rem;				/*h2内の余白。上、左右、下への順番。*/
