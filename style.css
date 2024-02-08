@@ -535,7 +535,7 @@ footer .pr {display: block;}
   margin-bottom: 0.5em;
 }
 
-.flow00 > li .icon10 {
+.flow00 > li .icon00 {
   color: #4D9BC1;
   margin-right: 0.5em;
 }
@@ -557,11 +557,11 @@ table {
   padding: 0;
   width: 650px;
   table-layout: fixed;
-  color: #4CAF50;
+  color: #4CAF50; /*文字色*/
 }
 
 table tr {
-  background-color: #fff;
+  /* background-color: #fff; */
   padding: .35em;
   border-bottom: 1px dotted #8BC34A;
 }
@@ -573,7 +573,7 @@ table td {
   padding: 1em 10px 1em 1em;
 }
 tbody th {
-    color: #0f7d13;
+    color: #0f7d13;/*種類の部分の文字*/
 }
 .txt{
    text-align: left;
