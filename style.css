@@ -563,7 +563,7 @@ table {
 table tr {
   /* background-color: #fff; */
   padding: .35em;
-  border-bottom: 1px dotted #8BC34A;
+  border-bottom: 2pt dashed #ccc;
 }
 table tr:last-child{
    border-bottom: 2px solid #18521b;
