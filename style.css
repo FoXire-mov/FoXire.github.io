@@ -557,8 +557,7 @@ table {
   padding: 0;
   width: 650px;
   table-layout: fixed;
-	display: flex;
-  color: #4CAF50; /*文字色*/
+  color: #000000; /*文字色*/
 }
 
 table tr {
@@ -567,14 +566,14 @@ table tr {
   border-bottom: 2pt dashed #ccc;
 }
 table tr:last-child{
-   border-bottom: 2px solid #18521b;
+   border-bottom: 2px solid #4D9BC1;
 }
 table th,
 table td {
   padding: 1em 10px 1em 1em;
 }
 tbody th {
-    color: #0f7d13;/*種類の部分の文字*/
+    color: #000000;/*種類の部分の文字*/
 }
 .txt{
    text-align: left;
@@ -591,7 +590,7 @@ tbody th {
   table th{
     display: block;
     border-right: none;
-    border-bottom: 2px solid #0f7d13;
+    border-bottom: 2px solid #4D9BC1;
     padding-bottom: .6em;
     margin-bottom: .6em;
 
@@ -610,7 +609,7 @@ tbody th {
   table tr {
     display: block;
     margin-bottom: 2em;
-        border-bottom: 2px solid #0f7d13;
+        border-bottom: 2px solid #4D9BC1;
   }
   
   table td {
