@@ -557,6 +557,7 @@ table {
   padding: 0;
   width: 650px;
   table-layout: fixed;
+	display: flex;
   color: #4CAF50; /*文字色*/
 }
 
