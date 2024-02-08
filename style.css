@@ -582,7 +582,7 @@ tbody th {
 .price{
    text-align: right;
 }
-@media screen and (max-width: 600px) {
+/*@media screen and (max-width: 600px) {
   table {
     border: 0;
     width:100%
@@ -632,7 +632,7 @@ tbody th {
   table td:last-child {
     border-bottom: 0;
   }
-}
+}*/
 
 /*その他
 ---------------------------------------------------------------------------*/
