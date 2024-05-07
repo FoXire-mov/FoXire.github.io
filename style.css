@@ -171,6 +171,7 @@ video {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    aspect-ratio: 16 / 9;
     min-width: 100%;
     min-height: 100%;
 }
@@ -354,6 +355,7 @@ footer .pr {display: block;}
     place-items: center;	/*天地左右の中央に中身を配置する*/
     position: relative;		/*h4を重ねる為の指定*/
 	/* border-radius: 0px 100px 0px 100px;	角を丸くする指定。左上、右上、右下、左下の順番。この行を削除すれば通常の長方形になります。*/
+	aspect-ratio: 16 / 9;
 	overflow: hidden;
 	margin-bottom: 2rem;	/*ボックスの下に空けるスペース*/
 }
