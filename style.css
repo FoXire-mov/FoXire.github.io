@@ -87,9 +87,12 @@ img {border: none;max-width: 100%;height: auto;vertical-align: middle;}
 /*iframeタグ*/
 iframe {
 	
-	width: 100%;
+	width: 100%; /*50%でもいいのかな*/
         height: auto;
         aspect-ratio: 16 / 9;
+	max-width: 600px;
+        display: block;
+        margin: auto;
 }
 
 /*他*/
