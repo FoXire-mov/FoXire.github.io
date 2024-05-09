@@ -745,16 +745,16 @@ tbody th {
 	background: #da3c41;
 }
 .cp_box label::after {
-	font-family: 'Comfortaa', 'M PLUS Rounded 1c', cursive;	
-	content: '₊';
+	font-family: 'Comfortaa', 'M PLUS Rounded 1c', 'FontAwesome', cursive;	
+	content: '\f067';
 	color: #da3c41;
 }
 .cp_box label:hover::after {
 	color: #ffffff;
 }
 .cp_box input:checked ~ label::after {
-	font-family: 'Comfortaa', 'M PLUS Rounded 1c', cursive;	
-	content: '-';
+	font-family: 'Comfortaa', 'M PLUS Rounded 1c', 'FontAwesome', cursive;	
+	content: '\f068';
 	color: #da3c41;
 }
 .cp_box input:checked ~ label:hover::after {
@@ -777,7 +777,7 @@ tbody th {
 }
 /* 続きを読むを押すと表示されるテキストの高さ */
 .cp_box input:checked ~ div.cp_container {
-	height: 500px;
+	height: 470px;
 }
 
 
