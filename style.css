@@ -770,14 +770,14 @@ tbody th {
 	height: 0;
 	margin-top: -1px;
 	transition: height 0.3s ease-in-out,box-shadow 0.6s linear;
-	background: rgba(255, 255, 255, 0.5);
+	/*background: rgba(255, 255, 255, 0);*/
 }
 .cp_box input:checked ~ div {
 	transition: height 0.5s ease-in-out,box-shadow 0.1s linear;
 }
 /* 続きを読むを押すと表示されるテキストの高さ */
 .cp_box input:checked ~ div.cp_container {
-	height: 300px;
+	height: 600px;
 }
 
 
