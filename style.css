@@ -745,17 +745,21 @@ tbody th {
 	background: #da3c41;
 }
 .cp_box label::after {
-	font-family: 'Comfortaa', 'M PLUS Rounded 1c', 'FontAwesome', cursive;	
+	.icon-font::before{
+	font-family: 'FontAwesome';	
 	content: '\f067';
 	color: #da3c41;
+	}
 }
 .cp_box label:hover::after {
 	color: #ffffff;
 }
 .cp_box input:checked ~ label::after {
-	font-family: 'Comfortaa', 'M PLUS Rounded 1c', 'FontAwesome', cursive;	
+	.icon-font::before{
+	font-family: 'FontAwesome';	
 	content: '\f068';
 	color: #da3c41;
+	}
 }
 .cp_box input:checked ~ label:hover::after {
 	color: #ffffff;
