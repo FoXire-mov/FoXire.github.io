@@ -748,7 +748,7 @@ tbody th {
 	.icon-font::before{
 	font-family: 'FontAwesome';	
 	content: '\f067';
-	color: #da3c41;
+	color: #ffffff;
 	}
 }
 .cp_box label:hover::after {
@@ -758,7 +758,7 @@ tbody th {
 	.icon-font::before{
 	font-family: 'FontAwesome';	
 	content: '\f068';
-	color: #da3c41;
+	color: #ffffff;
 	}
 }
 .cp_box input:checked ~ label:hover::after {
