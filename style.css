@@ -781,7 +781,7 @@ tbody th {
 }
 /* 続きを読むを押すと表示されるテキストの高さ */
 .cp_box input:checked ~ div.cp_container {
-	height: 1000px;
+	height: 990px;
 }
 
 
