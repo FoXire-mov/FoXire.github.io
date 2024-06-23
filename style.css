@@ -745,7 +745,7 @@ tbody th {
 	bottom: 20px;
 	left: 50%;
 	width: 16rem;
-	font-family: FontAwesome;
+	font-family: 'Font Awesome 5 Free';
 	content: "\f13a"' 続きを見る';
 	transform: translate(-50%, 0);
 	letter-spacing: 0.05em;
@@ -765,7 +765,7 @@ tbody th {
 	/* display: none ; 閉じるボタンを消す場合解放 */
 }
 .cp_box input:checked + label:after {
-	font-family: FontAwesome;
+	font-family: 'Font Awesome 5 Free';
 	content: "\f139"' 閉じる';
 }
 .cp_box input:checked ~ .cp_container {
