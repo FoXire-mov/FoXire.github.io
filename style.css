@@ -747,7 +747,7 @@ tbody th {
 	left: 50%;
 	width: 16rem;
 	font-family: 'Font Awesome 5 Free';
-	content: "\f13a"' 続きを見る';
+	content: "\f13a"'続きを見る';
 	transform: translate(-50%, 0);
 	letter-spacing: 0.05em;
 	color: #ffffff;
@@ -759,7 +759,7 @@ tbody th {
 }
 .cp_box .cp_container {
 	overflow: hidden;
-	height: 440px; /* 開く前に見えている部分の高さ */
+	height: 450px; /* 開く前に見えている部分の高さ */
 	transition: all 0.5s;
 }
 .cp_box input:checked + label {
@@ -767,7 +767,7 @@ tbody th {
 }
 .cp_box input:checked + label:after {
 	font-family: 'Font Awesome 5 Free';
-	content: ' 閉じる';
+	content: '閉じる';
 }
 .cp_box input:checked ~ .cp_container {
 	height: auto;
