@@ -729,7 +729,7 @@ tbody th {
 	z-index: 1;
 	bottom: 0;
 	width: 100%;
-	height: 140px; /* グラデーションの高さ */
+	height: 120px; /* グラデーションの高さ */
 	cursor: pointer;
 	text-align: center;
 	/* 以下グラデーションは背景を自身のサイトに合わせて設定してください */
