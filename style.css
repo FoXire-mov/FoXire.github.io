@@ -758,7 +758,7 @@ tbody th {
 }
 .cp_box .cp_container {
 	overflow: hidden;
-	height: 450px; /* 開く前に見えている部分の高さ */
+	height: 440px; /* 開く前に見えている部分の高さ */
 	transition: all 0.5s;
 }
 .cp_box input:checked + label {
