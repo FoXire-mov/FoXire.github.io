@@ -746,7 +746,7 @@ tbody th {
 	bottom: 20px;
 	left: 50%;
 	width: 16rem;
-	font-family: 'Font Awesome 5 Free';
+	font-family: Font Awesome 5 Free;
 	content: "\f13a"'続きを見る';
 	transform: translate(-50%, 0);
 	letter-spacing: 0.05em;
